@@ -16,4 +16,15 @@ if (compChoice === 0) {
     choice = "Scissors";
 }
 
+let person = prompt("Rock Paper Scissors?");
+if (personChoice === 0) {
+    choice = "Rock";
+    else if (personChoice === 1){
+        choice = "Paper";
+        else {
+            choice = "Scissors";
+        }
+    }
+}
+
 
